@@ -20,7 +20,7 @@
                             element.text('Location not found');
                         }
                     } else {
-                        element.text('Geocoder failed due to: ' + status);
+                        element.text('Location not found');
                     }
                 });
             },
